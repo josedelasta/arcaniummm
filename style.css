@@ -340,3 +340,39 @@ margin-right: 120px;
   color: var(--text-muted);
   letter-spacing: 0.08em;
 }
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .section {
+    padding: 64px 24px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
